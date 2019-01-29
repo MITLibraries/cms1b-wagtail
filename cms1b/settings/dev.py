@@ -23,7 +23,7 @@ except ImportError:
 DATABASES = {
     'default': {
         'ENGINE': 'zappa_django_utils.db.backends.s3sqlite',
-        'NAME': 'sqlite.db',
+        'NAME': 'rebuild.db',
         'BUCKET': 'wagtail-dev'
     }
 }
